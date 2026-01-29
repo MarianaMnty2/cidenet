@@ -1,0 +1,43 @@
+# Python / Django / Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.sqlite3
+
+# Node.js / React / Angular / Vue
+node_modules/
+.next/
+.nuxt/
+dist/
+build/
+.env.local
+.env.development.local
+*.log
+
+# Java / Spring
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs y editores
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
