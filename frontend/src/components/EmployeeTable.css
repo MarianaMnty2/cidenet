@@ -1,0 +1,63 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+}
+
+.employee-table th {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 12px 15px;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.employee-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.employee-table tr:hover {
+  background-color: #f1f4f9;
+}
+
+/* Status text styling (specific selector to override table td color) */
+.employee-table td.status-active {
+    color: #28a745;
+    font-weight: 700;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit, .btn-delete {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: transform 0.2s;
+}
+
+.btn-delete {
+    border-radius: 5px;
+    color: #dee2e6;
+    background-color: #dc3545;
+}
+
+.btn-edit {
+    border-radius: 5px;
+    color: #dee2e6;
+    background-color: #007bff;
+}
+
+.btn-edit:hover { transform: scale(1.1); }
+.btn-delete:hover { transform: scale(1.1); }
