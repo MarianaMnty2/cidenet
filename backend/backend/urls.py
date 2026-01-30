@@ -30,6 +30,7 @@ router.register(r'employees', EmployeeViewSet, basename='employee')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/employees/', include('employees.urls')),
     path('api/', include(router.urls)),
 
     # JWT
